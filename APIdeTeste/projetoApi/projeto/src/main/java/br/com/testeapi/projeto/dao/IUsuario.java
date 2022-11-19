@@ -1,9 +1,0 @@
-package br.com.testeapi.projeto.dao;
-
-import org.springframework.data.repository.CrudRepository;
-
-import br.com.testeapi.projeto.model.Usuario;
-
-public interface IUsuario extends CrudRepository<Usuario, Integer> {
-	
-}
